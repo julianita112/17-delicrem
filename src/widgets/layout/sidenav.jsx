@@ -30,12 +30,14 @@ export function Sidenav({ brandImg, brandName }) {
         openSidenav ? "translate-x-0" : "-translate-x-0"
       } fixed inset-0 z-50 my-4 ml-4 h-[calc(100vh-32px)] w-72 rounded-xl transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100`}
     >
+
+
       <div className={`relative`}>
-        <Link to="/" className="py-6 px-8 text-center">
+        <div className="py-6 px-8 text-center">
           <img src="/img/delicremlogo.png" alt="Logo" className="mx-auto mb-1" style={{ width: '230px' }} />
-        </Link>
-       
+        </div>
       </div>
+
       <div className="m-4 h-[calc(125vh-400px)] overflow-y-auto">
         {routes
           .filter(route => route.visible !== false) // Filtrar las rutas no visibles

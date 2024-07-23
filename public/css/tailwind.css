@@ -42,43 +42,43 @@
 }
 
 .btnedit {
-  background: linear-gradient(145deg, #d6cc36, #f2e30a);
+  background: linear-gradient(145deg, #48d2cb, #56a5a2);
   margin-bottom: 4px; 
 }
 
 .btnedit:hover {
-  background: linear-gradient(145deg, #f2e30a, #d6c802);
+  background: linear-gradient(145deg, #6db3af, #48d2cb);
 }
 
 .cancelar {
-  background: linear-gradient(145deg,#af040af2, #f30008f2);
+  background: linear-gradient(145deg,#ae4c68, #f30008f2);
   color: white; /* Color del texto */
   margin-right: 20px; /* Ajusta el valor según tus necesidades */
 }
 
 .cancelar:hover {
-  background: linear-gradient(145deg, #f30008f2, #c90209f2);
+  background: linear-gradient(145deg, #ae4c68, #ae4c68);
 }
 
 .btncancelarm {
-  background: linear-gradient(145deg, #af040af2, #f30008f2);
+  background: linear-gradient(145deg, #af040af2, #bb3a5f );
   color: white;
   margin-right: 10px; /* Ajusta el valor según el espacio deseado */
 }
 
 .btncancelarm:hover {
-  background: linear-gradient(145deg,  #f30008f2, #c90209f2);
+  background: linear-gradient(145deg, #ae4c68, #c90209f2);
 }
 
 
 .btncancelarinsumo {
-  background: linear-gradient(145deg, #af040af2, #f30008f2);
+  background: linear-gradient(145deg, #af040af2, #ae4c68);
   color: white;
 /* Ajusta el valor según el espacio deseado */
 }
 
 .btncancelarinsumo:hover {
-  background: linear-gradient(145deg,  #f30008f2, #c90209f2);
+  background: linear-gradient(145deg,  #ae4c68, #c90209f2);
 }
 
 
